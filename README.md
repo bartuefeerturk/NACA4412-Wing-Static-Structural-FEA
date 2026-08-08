@@ -1,11 +1,11 @@
 # NACA 4412 Wing Static Structural Analysis (FEA)
 
-## 📌 Project Overview
+Project Overview
 This repository contains the 3D Static Structural (Finite Element Analysis - FEA) study of a **NACA 4412** wing structure under aerodynamic lift loading. The pressure load applied in this analysis was previously derived from CFD simulations and theoretical Python lifting-line calculations.
 
 ---
 
-## 🛠️ Key Technical Features
+Key Technical Features
 * **Wing Profile:** NACA 4412
 * **Wing Span ($L$):** $1.25\text{ m}$ ($1250\text{ mm}$)
 * **Material:** Aluminum Alloy
@@ -16,7 +16,7 @@ This repository contains the 3D Static Structural (Finite Element Analysis - FEA
 
 ---
 
-## ⚙️ Boundary Conditions & Meshing
+Boundary Conditions & Meshing
 
 1. **Meshing Strategy:**
    * **Physics Preference:** Mechanical
@@ -33,7 +33,7 @@ This repository contains the 3D Static Structural (Finite Element Analysis - FEA
 
 ---
 
-## 📊 Results & Structural Evaluation
+Results & Structural Evaluation
 
 | Parameter | Value | Location / Critical Note |
 | :--- | :--- | :--- |
@@ -52,7 +52,7 @@ This repository contains the 3D Static Structural (Finite Element Analysis - FEA
 
 ---
 
-## 🔍 Key Engineering Findings
+Key Engineering Findings
 
 * **Bending Moment Correlation:** In agreement with Euler-Bernoulli beam theory ($M = F \cdot L$), maximum Von Mises stress occurs at the root of the cantilevered wing ($17.87\text{ MPa}$).
 * **Elastic Safety:** The maximum stress remains significantly below the material yield strength ($250\text{ MPa}$), yielding a high safety factor ($\text{FoS} \approx 14$). The structure operates fully within the linear elastic regime under standard steady-flight $1g$ loading.
